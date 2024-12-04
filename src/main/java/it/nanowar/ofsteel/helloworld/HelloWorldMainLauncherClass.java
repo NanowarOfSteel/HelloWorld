@@ -42,8 +42,13 @@ public class HelloWorldMainLauncherClass {
 	public void falseMethod() {
 		boolean metal=false;
 		if(metal==false) {
-			String joeyDeCaio=null;
-			joeyDeCaio.length();
+			try {	
+				String joeyDeCaio="";
+				joeyDeCaio.length();
+			}
+			catch(Exception ex) {
+				System.out.println(ex);
+			}
 		}
 	}
 }
