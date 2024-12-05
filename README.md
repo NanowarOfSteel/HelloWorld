@@ -166,53 +166,37 @@ Before building and running the Docker image, make sure you have the following i
 First, clone the repository containing the project and the Dockerfile to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/NanowarOfSteel/HelloWorld.git
+cd HelloWorld
 ```
 
 ### 2. Build the Docker image
 
-You can build the Docker image using the following command. Make sure you're in the root directory of the project, where the Dockerfile is located:
+You can build the Docker image using the following command. Make sure you're
+in the root directory of the project, then point out the location of the
+Dockerfile with the `-f` option:
 
 ```bash
-docker build -t my-java-app .
+docker build -t my-java-app -f src/main/docker/helloworld.dockerfile .
 ```
 
 This command will:
 1. Use an official Maven image to build the application.
 2. Package the application into a JAR file.
-3. Use a slim OpenJDK 17 image to run the resulting application.
+3. Use a slim OpenJDK 17 image to run the resulting application (**kinda**).
 
-### 3. Run the Docker container
+## Usage
 
 After the build is complete, you can run the Docker container using:
 
 ```bash
-docker run -p 8080:8080 my-java-app
-```
-
-This will start the application and expose it on port `8080`. You can adjust the port if necessary.
-
-## Usage
-
-Once the container is running, the application should be available at `http://localhost:8080`. This assumes your application is set to listen on port `8080`. You can modify the port mapping as needed.
-
-If the application requires specific environment variables or configuration, you can pass them at runtime like so:
-
-```bash
-docker run -p 8080:8080 -e ENV_VAR_NAME=value my-java-app
+docker run --rm my-java-app
 ```
 
 ## Cleaning Up
 
-To stop the running container, you can use:
-
-```bash
-docker ps  # Find the container ID
-docker stop <container_id>
-```
-
-You can also remove the container and image once you're done:
+If you didn't use the option `--rm` when instanciating the container, you will
+have to manually remove the container and image once you're done:
 
 ```bash
 docker rm <container_id>  # Remove the container
