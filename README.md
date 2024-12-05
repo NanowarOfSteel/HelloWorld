@@ -157,7 +157,7 @@ This repository contains a Dockerfile that automates the process of building and
 Before building and running the Docker image, make sure you have the following installed:
 
 - **Docker**: [Install Docker](https://www.docker.com/get-started)
-- **Maven**: (Optional) Maven is only needed locally for building the project if you're not using the Docker build.
+- **Maven**: Maven is needed to build the docker image. [Download](https://maven.apache.org/download.cgi), [Installation guide](https://maven.apache.org/install.html)
 
 ## Build and Run Instructions
 
@@ -166,16 +166,18 @@ Before building and running the Docker image, make sure you have the following i
 First, clone the repository containing the project and the Dockerfile to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/NanowarOfSteel/HelloWorld
+cd HelloWorld
 ```
 
 ### 2. Build the Docker image
 
+Ensure the Docker Engine is running before trying to build the docker image. On windows starting DockerDesktop will work. 
+
 You can build the Docker image using the following command. Make sure you're in the root directory of the project, where the Dockerfile is located:
 
 ```bash
-docker build -t my-java-app .
+docker build -t hello-world-app .
 ```
 
 This command will:
@@ -188,7 +190,7 @@ This command will:
 After the build is complete, you can run the Docker container using:
 
 ```bash
-docker run -p 8080:8080 my-java-app
+docker run -p 8080:8080 hello-world-app
 ```
 
 This will start the application and expose it on port `8080`. You can adjust the port if necessary.
@@ -200,7 +202,7 @@ Once the container is running, the application should be available at `http://lo
 If the application requires specific environment variables or configuration, you can pass them at runtime like so:
 
 ```bash
-docker run -p 8080:8080 -e ENV_VAR_NAME=value my-java-app
+docker run -p 8080:8080 -e ENV_VAR_NAME=value hello-world-app
 ```
 
 ## Cleaning Up
