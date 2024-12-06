@@ -59,19 +59,26 @@ To set up and run this project locally, follow these steps:
    git clone https://github.com/NanowarOfSteel/HelloWorld.git
    ```
 
-2. Navigate into the project directory:
+2. Navigate into the project sources directory:
    ```bash
-   cd HelloWorld
+   cd HelloWorld/src/main/java
    ```
 
 3. Compile the Java file:
    ```bash
-   javac HelloWorldMainLauncherClass.java
+   javac it/nanowar/ofsteel/helloworld/HelloWorldMainLauncherClass.java
    ```
 
 4. Run the program:
    ```bash
-   java HelloWorldMainLauncherClass
+   javac it/nanowar/ofsteel/helloworld/HelloWorldMainLauncherClass.java
+   ```
+
+Alternatively, with Java 11 you can compile and run the project in one single step:
+
+3. Compile and run the Java file:
+   ```bash
+   java it/nanowar/ofsteel/helloworld/HelloWorldMainLauncherClass.java
    ```
 
 ## Usage
