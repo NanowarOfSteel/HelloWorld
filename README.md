@@ -141,6 +141,32 @@ This will print "Hello World!" three times.
   
 - **Extending the Program**: You can extend the program by adding more features like exception handling, more complex message outputs, or additional loops and conditionals.
 
+# JBang Guide
+
+This repository contains a jbang catalog that allows you to run the HelloWorld program with the command `jbang hello@nanowarofsteel/hello`.
+
+## Table of Contents
+- [Prerequisites](#jbang-prerequisites)
+- [Usage](#jbang-usage)
+
+## JBang Prerequisites
+
+To use the jbang catalog, you need to have jbang installed. You can install jbang [here](https://www.jbang.dev/download/).
+
+## JBang Usage
+
+To run the HelloWorld program with `jbang`, you can use the following command directly without cloning the repository:
+
+```bash
+jbang hello@nanowarofsteel/HelloWorld
+```
+
+If you have cloned the repository, you can run the program with the following command:
+
+```bash
+jbang hello
+```
+
 # Docker Guide
 
 This repository contains a Dockerfile that automates the process of building and running a Java application using Maven. The Docker image is built in two stages: the first stage builds the application with Maven, and the second stage runs the application with a minimal OpenJDK 17 image.

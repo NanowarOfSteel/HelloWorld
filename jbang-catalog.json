@@ -1,0 +1,10 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "helloworld": {
+      "script-ref": "src/main/java/it/nanowar/ofsteel/helloworld/HelloWorldMainLauncherClass.java",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
