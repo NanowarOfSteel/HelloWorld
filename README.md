@@ -18,8 +18,8 @@ Some important notes:
 3. ```tizio``` and ```foo``` are very close friends.
 4. ```pippo``` isn't ```tizio```'s friend, but he's been flirting with ```foo```.
 5. In the comments "**manage**" should be renamed as "**handle**" (we all wish "manage" was the right word, but it's not).
-6. The constructor argument is used to control the number of executions. However, It may be completely useless if the execution is canceled by ```Joey De Caio```.
-7. "_Write once, run anywhere_" means lityerally anywhere (e.g. Hellfest).
+6. The constructor argument is used to control the number of executions. However, It may be completely useless if the execution is cancelled by ```Joey De Caio```.
+7. "_Write once, run anywhere_" means literally anywhere (e.g. Hellfest).
 8. ```songRefrain()``` identifies itself as a void method.
 
 Below you will find a super detailed guide to the program, of course written with ChatGPT.
