@@ -5,7 +5,6 @@ public class HelloWorldMainLauncherClass {
     private Integer foo = 0;
 
     public HelloWorldMainLauncherClass(int foo) {
-
         super();
         this.foo = foo;
     }
@@ -22,7 +21,6 @@ public class HelloWorldMainLauncherClass {
 
         for (int i = 0; i < foo; i++) {
             System.out.println("Hello World!");
-
         }
 
         int pippo = 0;
