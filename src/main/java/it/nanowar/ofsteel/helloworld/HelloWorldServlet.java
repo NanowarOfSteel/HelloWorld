@@ -18,7 +18,7 @@ public class HelloWorldServlet extends HttpServlet {
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
         try (ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            PrintStream captureStream = new PrintStream(baos)) {
+             PrintStream captureStream = new PrintStream(baos)) {
             System.setOut(captureStream);
             System.setErr(captureStream);
             out.println("<html><body>");
