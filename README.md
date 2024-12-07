@@ -151,6 +151,7 @@ This repository contains a Dockerfile that automates the process of building and
 - [Usage](#usage)
 - [Cleaning Up](#cleaning-up)
 - [Notes](#notes)
+- [Performance considerations](#performance-considerations)
 
 ## Prerequisites
 
@@ -223,6 +224,54 @@ docker rmi my-java-app    # Remove the image
 
 - **Multi-stage build**: The Dockerfile uses a multi-stage build to ensure the final image is small and optimized for running the application. The first stage uses the Maven image to build the application, and the second stage uses a slim JDK image to run it.
 - **JAR file location**: The final JAR file is copied from the `/target` directory in the Maven build stage to the working directory in the runtime stage (`/app`).
+
+## Performance considerations
+
+In order to achieve better performance experience this code live.
+Due to resource allocation issues there are only limited possibilities:
+
+- FRIDAY 21 FEBRUARY 2025: Vienna, Austria - Simm City
+
+- SATURDAY 22 FEBRUARY 2025: Leipzig, Germany - Hellraiser
+
+- SUNDAY 23 FEBRUARY 2025: Stuttgart, Germany - Halle, Im Wizemann
+
+- MONDAY 24 FEBRUARY 2025: Hamburg, Germany - Kaiserkeller (Grosse Freiheit)
+
+- WEDNESDAY 26 FEBRUARY 2025: Paris, France - La Machine du Moulin Rouge
+
+- THURSDAY 27 FEBRUARY 2025: Pratteln, Switzerland - Z7 Konzertfabrik
+
+- FRIDAY 28 FEBRUARY 2025: Villeurbanne, France - La Rayonne
+
+- SATURDAY 1 MARCH 2025: Lindau, Germany - Club Vaudeville
+
+- SUNDAY 2 MARCH 2025: Nuremberg, Germany - HIRSCH
+
+- TUESDAY 4 MARCH 2025: Aarhus, Denmark - VoxHall
+
+- WEDNESDAY 5 MARCH 2025: Tilburg, Netherlands - 013
+
+- THURSDAY 6 MARCH 2025: Frankfurt, Germany - Zoom Frankfurt
+
+- FRIDAY 7 MARCH 2025: Wrocław, Poland - Transformator
+
+- SATURDAY 8 MARCH 2025: Budapest, Hungary - Barba Negra
+
+- SUNDAY 9 MARCH 2025: Krakow, Poland - Kwadrat
+
+- MONDAY 10 MARCH 2025: Berlin, Germany - Columbia Theater
+
+- WEDNESDAY 12 MARCH 2025: Antwerp, Belgium - Kavka Zappa
+
+- FRIDAY 14 MARCH 2025: Drachten, Netherlands - Poppodium Iduna
+
+- SATURDAY 15 MARCH 2025: Strasbourg, France - Le Molodoï
+
+- FRIDAY 4 - SATURDAY 5 APRIL 2025: epic fest denmark 2025:  - Roskilde-Hallerne, Roskilde, Denmark
+
+Further information about upcomming resources can be found here: https://www.nanowar.it/live/
+
   
 ## Troubleshooting
 
