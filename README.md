@@ -236,6 +236,84 @@ docker rmi my-java-app    # Remove the image
   - **Solution**: Make sure all necessary dependencies are listed in your `pom.xml` file, and try running `mvn clean install` locally to check for issues before attempting the Docker build.
 
 ---
+## Docker compose guide
+
+## Prerequisites 
+
+- Docker: [Install Docker](https://www.docker.com/get-started)
+- Docker compose: [Install Docker Compose](https://docs.docker.com/compose/install)
+
+## Build and Run Instructions 
+
+### 1. Clone the repository 
+
+Do as described in [Docker Build and Run Instructions](#1-clone-the-repository)
+
+### 2. Build and Run
+
+With Docker Compose building and running are done with one command (run in the project root):
+
+```bash
+docker compose up
+```
+
+
+This command will build and run the project serving it on port 8080.
+
+For further explanations see the comments in file: _docker-compose.yaml_
+
+By running `docker compose up` the output will be captured by the execution.
+
+You can pass the execution context to the docker daemon by running
+
+```bash
+docker compose up -d
+```
+
+## Cleaning Up
+
+If you ran `docker compose` without the `-d` flag stop the execution by pressing `ctrl+c`
+
+If you ran `docker compose -d` you can stop the execution by running 
+
+```bash
+docker compose down
+```
+
+within the directory where the file _docker-compose.yaml_ is located
+
+Run
+
+```bash
+docker compose rm
+```
+
+to remove the stopped container.
+
+Then do as describe in [Cleaning Up for Docker](#cleaning-up) except for the remove the stopped container part
+
+## Troubleshooting (only for Mac or Linux)
+
+If you get this error:
+`Error response from daemon: driver failed programming external connectivity on endpoint helloworld-app-1 (1769c92017f2d2da48adc989bd2321855e3152f6a11932c18ed36e7df443f0ae): failed to bind port 0.0.0.0:8080/tcp: Error starting userland proxy: listen tcp4 0.0.0.0:8080: bind: address already in use'
+`
+
+It means the port 8080 is already binded (maybe by the previous docker execution without cleaning up).
+
+To solve it find the process running on port 8080 by running
+
+```bash
+lsof -i tcp:8080
+```
+
+Note the `PID` value of the output and kill the process by running 
+
+```bash
+kill <PID>
+```
+
+
+---
 
 # License
 

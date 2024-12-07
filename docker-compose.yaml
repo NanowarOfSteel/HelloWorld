@@ -1,0 +1,7 @@
+services:
+  app: # Service name
+    build:
+      context: . # Dockerfile directory relative path from this file
+      dockerfile: Dockerfile # Dockerfile file name
+    ports:
+      - "8080:8080" # First port is the local port of your machine where the program execution will be binded
