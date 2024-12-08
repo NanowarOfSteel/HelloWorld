@@ -1,5 +1,5 @@
 # Step 1: Use an official Maven image to build the project
-FROM maven:3.8.8-eclipse-temurin-17 AS build
+FROM docker.io/maven:3.8.8-eclipse-temurin-17 AS build
 
 # Step 2: Set the working directory inside the container
 WORKDIR /app
@@ -11,7 +11,7 @@ COPY . .
 RUN mvn clean package
 
 # Step 5: Use Tomcat image to deploy the WAR
-FROM tomcat:jdk17
+FROM docker.io/tomcat:jdk17
 
 # Step 6: Set the working directory inside the Tomcat container
 WORKDIR /usr/local/tomcat/webapps
