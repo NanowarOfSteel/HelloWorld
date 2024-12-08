@@ -166,8 +166,8 @@ Before building and running the Docker image, make sure you have the following i
 First, clone the repository containing the project and the Dockerfile to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <your-repository-directory>
+git clone https://github.com/NanowarOfSteel/HelloWorld.git
+cd HelloWorld
 ```
 
 ### 2. Build the Docker image
