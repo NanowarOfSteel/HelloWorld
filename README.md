@@ -50,7 +50,37 @@ The `HelloWorldMainLauncherClass` performs the following tasks:
 - Java Development Kit (JDK) 8 or higher.
 - A Java IDE (like IntelliJ IDEA, Eclipse, or NetBeans) or a command-line environment to compile and run the Java program.
 
-## Installation
+## Running with Nix
+
+Nix is a way to reproducibly manage dependencies without using containers. Now everyone can run the same version of Nanowar Of Steel's glorious Hello World program.
+
+1. First, [get Nix](https://nixos.org/).
+
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/NanowarOfSteel/HelloWorld.git
+   ```
+
+3. Run `nix-shell` to drop into a shell with all the development dependencies like Maven and the JDK, or run `nix-build` to build the program.
+
+4. Output is at `result/bin/HelloWorld`.
+
+### Flakes
+
+If you have [Flakes](https://wiki.nixos.org/wiki/Flakes) enabled via methods like the [Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer),
+you can run this project without even cloning it:
+
+1. Enable Flakes via the [wiki](https://wiki.nixos.org/wiki/Flakes) or the [Determinate Nix Installer](https://github.com/DeterminateSystems/nix-installer).
+
+2. Build and run it:
+   ```bash
+   nix run github:NanowarOfSteel/HelloWorld
+   ```
+
+With flakes, you can also use `nix develop` instead of `nix-shell` and `nix build` instead of `nix-build`.
+`nix flake update` will update the version of nixpkgs used.
+
+## Manual Installation
 
 To set up and run this project locally, follow these steps:
 
