@@ -281,6 +281,8 @@ Due to resource allocation issues there are only limited possibilities:
 
 - WEDNESDAY 12 MARCH 2025: Antwerp, Belgium - Kavka Zappa
 
+- THURSDAY 13 MARCH 2025: Bochum, Germany - Matrix
+
 - FRIDAY 14 MARCH 2025: Drachten, Netherlands - Poppodium Iduna
 
 - SATURDAY 15 MARCH 2025: Strasbourg, France - Le Molodoï
