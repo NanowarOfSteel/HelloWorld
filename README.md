@@ -287,7 +287,7 @@ Due to resource allocation issues there are only limited possibilities:
 
 - FRIDAY 4 - SATURDAY 5 APRIL 2025: epic fest denmark 2025:  - Roskilde-Hallerne, Roskilde, Denmark
 
-Further information about upcomming resources can be found here: https://www.nanowar.it/live/
+Further information about upcoming resources can be found here: https://www.nanowar.it/live/
 
   
 ## Troubleshooting
@@ -356,7 +356,7 @@ docker compose rm
 
 to remove the stopped container.
 
-Then do as describe in [Cleaning Up for Docker](#cleaning-up) except for the remove the stopped container part
+Then do as described in [Cleaning Up for Docker](#cleaning-up) except for the removal of the stopped container part
 
 ## Troubleshooting (only for Mac or Linux)
 
