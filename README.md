@@ -141,7 +141,7 @@ This will print "Hello World!" six times.
 
 # JBang Guide
 
-This repository contains a jbang catalog that allows you to run the HelloWorld program with the command `jbang hello@nanowarofsteel/hello`.
+This repository contains a jbang catalog that allows you to run the HelloWorld program with the command `jbang helloworld@nanowarofsteel/hello`.
 
 ## Table of Contents
 - [Prerequisites](#jbang-prerequisites)
@@ -156,13 +156,13 @@ To use the jbang catalog, you need to have jbang installed. You can install jban
 To run the HelloWorld program with `jbang`, you can use the following command directly without cloning the repository:
 
 ```bash
-jbang hello@nanowarofsteel/HelloWorld
+jbang helloworld@nanowarofsteel/HelloWorld
 ```
 
 If you have cloned the repository, you can run the program with the following command:
 
 ```bash
-jbang hello
+jbang helloworld
 ```
 
 # Docker Guide
