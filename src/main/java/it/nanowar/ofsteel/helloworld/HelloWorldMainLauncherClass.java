@@ -40,7 +40,7 @@ public class HelloWorldMainLauncherClass {
 	 */
 	
 	public void falseMethod() {
-		boolean metal=false;
+		boolean metal=true;
 		if(metal==false) {
 			String joeyDeCaio=null;
 			joeyDeCaio.length();
