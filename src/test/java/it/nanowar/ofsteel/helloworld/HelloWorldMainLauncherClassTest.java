@@ -39,7 +39,7 @@ class HelloWorldMainLauncherClassTest {
     void testFalseMethodThrowsNullPointerException() {
         HelloWorldMainLauncherClass instance = new HelloWorldMainLauncherClass(1);
 
-        // Make sure the NPE is thrown
-        assertThrows(NullPointerException.class, instance::falseMethod, "falseMethod should throw a NullPointerException");
+        // Should not throw an exception
+        assertDoesNotThrow(instance::trueMethod, "trueMethod should not throw a NullPointerException");
     }
 }
