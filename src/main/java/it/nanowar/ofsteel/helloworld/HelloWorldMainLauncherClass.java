@@ -29,7 +29,7 @@ public class HelloWorldMainLauncherClass {
 		HelloWorldMainLauncherClass tizio = new HelloWorldMainLauncherClass(2);
 		tizio.songRefrain();
 		System.out.println("Program Finished!");
-		tizio.falseMethod();
+		tizio.trueMethod();
 	}
 	
 	/*
@@ -39,8 +39,11 @@ public class HelloWorldMainLauncherClass {
 	 * With Static and Strong Typing, will let my programs be type safe!
 	 */
 	
-	public void falseMethod() {
+	public void trueMethod() {
+		//Bug no longer introduced
+		//And now metal=true
 		boolean metal=true;
+		
 		if(metal==false) {
 			String joeyDeCaio=null;
 			joeyDeCaio.length();
