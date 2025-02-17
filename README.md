@@ -141,7 +141,7 @@ This will print "Hello World!" six times.
 
 # JBang Guide
 
-This repository contains a jbang catalog that allows you to run the HelloWorld program with the command `jbang helloworld@nanowarofsteel/hello`.
+This repository contains a jbang catalog that allows you to run the HelloWorld program with the command `jbang helloworld@nanowarofsteel/helloworld`.
 
 ## Table of Contents
 - [Prerequisites](#jbang-prerequisites)
