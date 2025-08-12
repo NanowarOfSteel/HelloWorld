@@ -239,49 +239,37 @@ docker rmi my-java-app    # Remove the image
 In order to achieve better performance experience this code live.
 Due to resource allocation issues there are only limited possibilities:
 
-- FRIDAY 21 FEBRUARY 2025: Vienna, Austria - Simm City
+- FRIDAY 15 AUGUST 2025: Cudrefin, Switzerland - Rock The Lakes 2025
+- SATURDAY 1 NOVEMBER 2025: São Paulo, Brazil - Odin's Krieger
+- SUNDAY 2 NOVEMBER 2025: Curitiba, Brazil - Odin's Krieger
+- FRIDAY 9 JANUARY 2026: Tilburg, Netherlands - O13
+- SATURDAY 10 JANUARY 2026: Bochum, Germany - Matrix Bochum
+- SUNDAY 11 JANUARY 2026: Lille, France - The Black Lab
+- TUESDAY 13 JANUARY 2026: Grimsby, United Kingdom - Yardbirds Rock Club
+- WEDNESDAY 14 JANUARY 2026: Southampton, United Kingdom - The 1865
+- THURSDAY 15 JANUARY 2026: London, United Kingdom - O2 Academy Islington
+- FRIDAY 16 JANUARY 2026: Vaureal, France - Le Forum
+- SATURDAY 17 JANUARY 2026: Limoges, France - CCM John Lennon
+- SUNDAY 18 JANUARY 2026: Bordeaux, France - Rocher de Palmer
+- TUESDAY 20 JANUARY 2026: Pamplona, Spain - Totem
+- WEDNESDAY 21 JANUARY 2026: Madrid, Spain - Revi Live
+- THURSDAY 22 JANUARY 2026: Barcelona, Spain - Sala Wolf
+- FRIDAY 23 JANUARY 2026: Toulouse, France - Le Metronum
+- SATURDAY 24 JANUARY 2026: Montpellier, France - Rockstore
+- SUNDAY 25 JANUARY 2026: Grenoble, France - L'Ilyade
+- TUESDAY 27 JANUARY 2026: Pratteln, Switzerland - Z7 Konzertfabrik
+- WEDNESDAY 28 JANUARY 2026: München, Germany - Backstage
+- THURSDAY 29 JANUARY 2026: Cologne, Germany - Gebäude 9
+- FRIDAY 30 JANUARY 2026: Le Mans, France - L'Oasis
+- SATURDAY 31 JANUARY 2026: Colmar, France - Le Grillen
+- SUNDAY 1 FEBRUARY 2026: Herford, Germany - Kulturwerk Herford
+- TUESDAY 3 FEBRUARY 2026: Hamburg, Germany - LOGO
+- WEDNESDAY 4 FEBRUARY 2026: Aschaffenburg, Germany - Colosaal
+- THURSDAY 5 FEBRUARY 2026: Praha, Czech Republic - Futurum Music Bar
+- FRIDAY 6 FEBRUARY 2026: Kraków, Poland - STUDIO
+- SATURDAY 7 FEBRUARY 2026: Bratislava, Slovakia - Randal Club
+- SUNDAY 8 FEBRUARY 2026: Berlin, Germany - Lido
 
-- SATURDAY 22 FEBRUARY 2025: Leipzig, Germany - Hellraiser
-
-- SUNDAY 23 FEBRUARY 2025: Stuttgart, Germany - Halle, Im Wizemann
-
-- MONDAY 24 FEBRUARY 2025: Hamburg, Germany - Kaiserkeller (Grosse Freiheit)
-
-- WEDNESDAY 26 FEBRUARY 2025: Paris, France - La Machine du Moulin Rouge
-
-- THURSDAY 27 FEBRUARY 2025: Pratteln, Switzerland - Z7 Konzertfabrik
-
-- FRIDAY 28 FEBRUARY 2025: Villeurbanne, France - La Rayonne
-
-- SATURDAY 1 MARCH 2025: Lindau, Germany - Club Vaudeville
-
-- SUNDAY 2 MARCH 2025: Nuremberg, Germany - HIRSCH
-
-- TUESDAY 4 MARCH 2025: Aarhus, Denmark - VoxHall
-
-- WEDNESDAY 5 MARCH 2025: Tilburg, Netherlands - 013
-
-- THURSDAY 6 MARCH 2025: Frankfurt, Germany - Zoom Frankfurt
-
-- FRIDAY 7 MARCH 2025: Wrocław, Poland - Transformator
-
-- SATURDAY 8 MARCH 2025: Budapest, Hungary - Barba Negra
-
-- SUNDAY 9 MARCH 2025: Krakow, Poland - Kwadrat
-
-- MONDAY 10 MARCH 2025: Berlin, Germany - Columbia Theater
-
-- WEDNESDAY 12 MARCH 2025: Antwerp, Belgium - Kavka Zappa
-
-- THURSDAY 13 MARCH 2025: Bochum, Germany - Matrix
-
-- FRIDAY 14 MARCH 2025: Drachten, Netherlands - Poppodium Iduna
-
-- SATURDAY 15 MARCH 2025: Strasbourg, France - Le Molodoï
-
-- SUNDAY 16 MARCH 2025: Munich, Germany - Backstage
-
-- FRIDAY 4 - SATURDAY 5 APRIL 2025: epic fest denmark 2025:  - Roskilde-Hallerne, Roskilde, Denmark
 
 Further information about upcoming resources can be found here: https://tour.nanowar.it
 
